@@ -1,0 +1,5 @@
+F:\常用软件\Git\shiyan1\BowlingBall-text\BowlingLib\bin\Debug\BowlingLib.dll
+F:\常用软件\Git\shiyan1\BowlingBall-text\BowlingLib\bin\Debug\BowlingLib.pdb
+F:\常用软件\Git\shiyan1\BowlingBall-text\BowlingLib\obj\Debug\ResolveAssemblyReference.cache
+F:\常用软件\Git\shiyan1\BowlingBall-text\BowlingLib\obj\Debug\BowlingLib.dll
+F:\常用软件\Git\shiyan1\BowlingBall-text\BowlingLib\obj\Debug\BowlingLib.pdb
