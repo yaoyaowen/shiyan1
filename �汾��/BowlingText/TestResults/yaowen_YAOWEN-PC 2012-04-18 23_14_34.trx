@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="38a294f4-a2bf-4115-8fc5-1aa9f36f4d47" name="yaowen@YAOWEN-PC 2012-04-18 23:14:34" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="4ca9b0bd-2838-4f9a-b793-890fa733dcd1">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-04-18 23_14_34">
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\BowlingText\Bowling\bin\Debug\Bowling.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T23:14:34.0820720+08:00" queuing="2012-04-18T23:14:35.4641510+08:00" start="2012-04-18T23:14:35.5751573+08:00" finish="2012-04-18T23:14:37.7472816+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="f:\常用软件\git\shiyan1\bowlingtext\bowlingtext\bin\debug\bowlingtext.dll" id="03ffdfb2-33ec-35fb-2313-a4be8ce3a4c0">
+      <Execution id="bb38f1fd-e5b4-4dbf-832d-bdecc99c6ca4" />
+      <TestMethod codeBase="F:/常用软件/Git/shiyan1/BowlingText/BowlingText/bin/Debug/BowlingText.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingText.UnitTest1, BowlingText, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03ffdfb2-33ec-35fb-2313-a4be8ce3a4c0" executionId="bb38f1fd-e5b4-4dbf-832d-bdecc99c6ca4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bb38f1fd-e5b4-4dbf-832d-bdecc99c6ca4" testId="03ffdfb2-33ec-35fb-2313-a4be8ce3a4c0" testName="TestMethod1" computerName="YAOWEN-PC" duration="00:00:00.1033710" startTime="2012-04-18T23:14:35.6281604+08:00" endTime="2012-04-18T23:14:37.6362752+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb38f1fd-e5b4-4dbf-832d-bdecc99c6ca4">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingText.UnitTest1.TestMethod1 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingText.UnitTest1.TestMethod1() 位置 F:\常用软件\Git\shiyan1\BowlingText\BowlingText\UnitTest1.cs:行号 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
