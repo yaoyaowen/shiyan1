@@ -1,7 +1,0 @@
-F:\常用软件\Git\shiyan1\BowlingText\BowlingText\obj\Debug\ResolveAssemblyReference.cache
-F:\常用软件\Git\shiyan1\BowlingText\BowlingText\bin\Debug\BowlingText.dll
-F:\常用软件\Git\shiyan1\BowlingText\BowlingText\bin\Debug\BowlingText.pdb
-F:\常用软件\Git\shiyan1\BowlingText\BowlingText\bin\Debug\Bowling.dll
-F:\常用软件\Git\shiyan1\BowlingText\BowlingText\bin\Debug\Bowling.pdb
-F:\常用软件\Git\shiyan1\BowlingText\BowlingText\obj\Debug\BowlingText.dll
-F:\常用软件\Git\shiyan1\BowlingText\BowlingText\obj\Debug\BowlingText.pdb
