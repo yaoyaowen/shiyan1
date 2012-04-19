@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1dd4d43f-4e5d-4885-88f2-9c0bae16e292" name="yaowen@YAOWEN-PC 2012-04-19 14:34:34" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="4ca9b0bd-2838-4f9a-b793-890fa733dcd1">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-04-19 14_34_34">
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\BowlingText\Bowling\bin\Debug\Bowling.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T14:34:34.7277470+08:00" queuing="2012-04-19T14:34:36.0128205+08:00" start="2012-04-19T14:34:36.1068259+08:00" finish="2012-04-19T14:34:37.5939109+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="f:\常用软件\git\shiyan1\bowlingtext\bowlingtext\bin\debug\bowlingtext.dll" id="03ffdfb2-33ec-35fb-2313-a4be8ce3a4c0">
+      <Execution id="c844de73-6058-47ce-a59b-fb79fffaa534" />
+      <TestMethod codeBase="F:/常用软件/Git/shiyan1/BowlingText/BowlingText/bin/Debug/BowlingText.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingText.UnitTest1, BowlingText, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03ffdfb2-33ec-35fb-2313-a4be8ce3a4c0" executionId="c844de73-6058-47ce-a59b-fb79fffaa534" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c844de73-6058-47ce-a59b-fb79fffaa534" testId="03ffdfb2-33ec-35fb-2313-a4be8ce3a4c0" testName="TestMethod1" computerName="YAOWEN-PC" duration="00:00:00.0229253" startTime="2012-04-19T14:34:36.1528285+08:00" endTime="2012-04-19T14:34:37.5349076+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c844de73-6058-47ce-a59b-fb79fffaa534">
+    </UnitTestResult>
+  </Results>
+</TestRun>
