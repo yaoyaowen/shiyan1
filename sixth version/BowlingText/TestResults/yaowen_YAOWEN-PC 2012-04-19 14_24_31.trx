@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="958eb916-88d9-45b9-b0fa-da11fd3940dd" name="yaowen@YAOWEN-PC 2012-04-19 14:24:31" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="4ca9b0bd-2838-4f9a-b793-890fa733dcd1">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-04-19 14_24_31">
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\BowlingText\Bowling\bin\Debug\Bowling.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T14:24:31.9319726+08:00" queuing="2012-04-19T14:24:33.2370473+08:00" start="2012-04-19T14:24:33.4000566+08:00" finish="2012-04-19T14:25:00.0827724+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="YAOWEN-PC" outcome="Error" timestamp="2012-04-19T14:25:00.0817723+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="f:\常用软件\git\shiyan1\bowlingtext\bowlingtext\bin\debug\bowlingtext.dll" id="03ffdfb2-33ec-35fb-2313-a4be8ce3a4c0">
+      <Execution id="9e990827-8bb2-4d19-9aa0-bed9828dcd54" />
+      <TestMethod codeBase="F:/常用软件/Git/shiyan1/BowlingText/BowlingText/bin/Debug/BowlingText.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingText.UnitTest1, BowlingText, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03ffdfb2-33ec-35fb-2313-a4be8ce3a4c0" executionId="9e990827-8bb2-4d19-9aa0-bed9828dcd54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9e990827-8bb2-4d19-9aa0-bed9828dcd54" testId="03ffdfb2-33ec-35fb-2313-a4be8ce3a4c0" testName="TestMethod1" computerName="YAOWEN-PC" duration="00:00:26.5413112" startTime="2012-04-19T14:24:33.5414612+08:00" endTime="2012-04-19T14:25:00.0827724+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e990827-8bb2-4d19-9aa0-bed9828dcd54">
+    </UnitTestResult>
+  </Results>
+</TestRun>
